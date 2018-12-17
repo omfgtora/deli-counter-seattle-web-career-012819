@@ -1,5 +1,17 @@
 katz_deli = Array.new()
 
+def line(arr)
+  if arr.length == 0
+    puts "The line is currently empty."
+  else
+    output = "The line is currently: "
+    for each in arr
+      output + each.index + each
+    end
+  end
+    
+end
+
 def take_a_number(arr, name)
   arr.push(name)
   
