@@ -6,7 +6,7 @@ def line(arr)
   else
     output = "The line is currently: "
     for each in arr
-      output = output + "#{arr.index(each) +1}. " + each + " "
+      output = output + " #{arr.index(each) +1}. " + each
     end
     puts output
   end
