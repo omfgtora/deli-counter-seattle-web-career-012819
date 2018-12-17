@@ -4,7 +4,7 @@ def line(arr)
   if arr.length == 0
     puts "The line is currently empty."
   else
-    output = "The line is currently: "
+    output = "The line is currently:"
     for each in arr
       output = output + " #{arr.index(each) +1}. " + each
     end
